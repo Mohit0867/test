@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+}
+.head-nav-one {
+  gap: 50px;
+  background-color: #d7d7d7;
+  flex: 2;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 30px 0px 60px 28px;
+}
+
+.head-nav-two {
+  padding: 30px 40px 60px 0px;
+  gap: 50px;
+  background-color: #b9b9b9;
+  flex: 3;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.star {
+  color: rgb(132, 0, 0);
+}
+.head-nav-first {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-div {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+
+.head-div-one {
+  background-color: #d7d7d7;
+  height: 80vh;
+  flex: 2;
+}
+.head-div-two {
+  background-color: #b9b9b9;
+  height: 80vh;
+  flex: 3;
+}
+.hot {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.menu {
+  font-size: 2rem;
+}
+.eng {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.hot-rod {
+  font-family: sans-serif;
+  padding: 75px 20px 0px 0px;
+  line-height: 115px;
+  font-size: 8rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.classic-zero-soc {
+  padding: 60px 35px;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: end;
+  gap: 110px;
+}
+
+.classic {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.social {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 40px 0px 0px 0px;
+  font-size: 0.9rem;
+}
+.number {margin-left: -50px;
+  color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.car {
+  height: 50vh;
+  width: 75%;
+  padding-top: 60px;
+}
+.car-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counting {padding: 12px 0px 0px 30px;
+  letter-spacing: 3px;
+  gap: 18px;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.one{font-weight: 600;
+  margin-bottom: -22px;
+  font-size: 8rem;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d7d7d7;
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: bely;
+  src: url(./fonts2/Bely\ Display\ W00\ Regular.ttf);
+}
+body {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.nav1 {
+  position: absolute;
+  width: 100%;
+  padding: 2rem;
+  background-color: transparent;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-section {
+  z-index: -1;
+  display: flex;
+  position: relative;
+  height: 135vh;
+}
+.img {
+  background-image: url(./images/pics.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.four-divs {
+  border: 1px solid black;
+  background-color: #c6a7a4;
+  height: 135vh;
+  flex: 1;
+}
+.follow {display: flex;
+  justify-content: center;
+  position: relative;
+  font-size: 1rem;
+}
+.soul {
+  font-family: "bely", sans-serif;
+  font-size: 22rem;
+}
+.s {
+  position: relative;
+  top: 15%;
+  /* left: 18%; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.o {
+  position: relative;
+  top: 30%;
+  /* left: 8%; */
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+.u {margin-bottom: -50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -5%;
+  /* align-items: start; */
+}
+.l {
+  position: relative;
+  top: 45%;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+
+.fonts-edit {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.orange {
+  color: #c6a7a4;
+}
+.numbers {position: relative;
+  bottom: -120px;
+  left: 5px;
+  font-family: "bely", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0rem 0rem 2rem 2rem;
+}
+.spans {
+  margin: 0vh 15vh;
+}
+.arrow {
+  padding-top: 2vh;
+  margin: 0vh 7.3vh;
+}
+.copy {
+  position: absolute;
+  right: -5vh;
+  bottom: 15vh;
+  rotate: -90deg;
+}

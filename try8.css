@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "furore";
+  src: url(font3/Furore.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-section {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #ffffff;
+}
+.header-nav {
+  background-color: #fff;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 75px 20px 75px;
+}
+.first-nav {
+  font-family: "furore";
+  font-size: 1.7rem;
+}
+.two-nav {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.three-nav {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-div {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-div {
+  flex: 1;
+  height: 90vh;
+}
+.second-div {
+  flex: 1;
+  height: 90vh;
+  background-image: url(./images/main-boy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  /* background: linear-gradient(to bottom right, #afb3be, #afb3be);     */
+}
+.third-div {
+  flex: 1;
+  height: 90vh;
+  background-image: url(./images/right-boy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+.jack-span {
+  gap: 50px;
+  padding: 60px 20px 20px 80px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.jack-span div {
+  gap: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jap {
+  padding: 30px 20px 20px 80px;
+  font-family: "furore";
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.color-size {
+  font-family: sans-serif;
+  padding: 30px 20px 20px 80px;
+}
+.size,
+.color {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.ul-one,
+.ul-two {
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sizes,
+.colors {
+  gap: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.sizes {
+  padding-bottom: 15px;
+}
+.arrow {
+  /* padding: 20px; */
+  border-radius: 50%;
+  border: 2px solid black;
+  height: 115px;
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin-right: 20px;
+}
+.span-rate {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px 20px 0px;
+
+}
+.add {font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  padding-left: 4px;
+}
+.rate {font-size: 2rem;
+  font-family: "furore";
+  font-weight: 300;
+}

@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.nav-head {
+  margin: 0.25em;
+}
+ul {
+  display: flex;
+}
+.nav-left,
+.nav-right {
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  flex: 2;
+  padding: 1em 2.5em;
+}
+.nav-middle {
+  padding: 1em 2.5em;
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  flex: 1.5;
+  margin: 0px 2px;
+}
+.second {
+  border-radius: 12px;
+  height: 91vh;
+  background-color: white;
+  margin: 0em 0.25em;
+  display: flex;
+  gap: 1.8px;
+  background-color: black;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  font-family: "Mars Model", sans-serif;
+}
+.all-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.three-dots {
+  font-size: 1.3rem;
+}
+.hero-left {
+  border-radius: 10px;
+  background-color: white;
+  height: 118vh;
+  flex: 4.3;
+}
+
+.font-size-salvador {
+  font-size: 7rem;
+  font-family: "Mars Model", sans-serif;
+  position: relative;
+  line-height: 90px;
+  margin: 45px 40px;
+}
+.sup {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: absolute;
+  top: 61px;
+  left: 300px;
+}
+.year-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.image-year-notes {
+  margin: 45px 40px;
+}
+hr {
+  border: 1px solid black;
+  width: 100%;
+}
+.image-one {
+  border-radius: 10px;
+  width: 100%;
+  height: 240px;
+  content-visibility: cover;
+  margin: 2.5em 0em 0em 0em;
+}
+.left-year {
+  font-size: 0.8rem;
+  margin-right: 3.5em;
+}
+.right-year {
+  font-size: 0.8rem;
+  margin-left: 3.5em;
+}
+.nationality-div {
+  line-height: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+.button-one {
+  background-color: #000000;
+  font-size: 2rem;
+  font-family: "Mars Model", sans-serif;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 0.5em;
+  padding: 0.8em 0.7em 0.7em 0em;
+  border: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: 500;
+}
+.arrow {
+  font-size: 4rem;
+}
+.hero-right {
+  padding: 40px 40px 0px 40px;
+  border-radius: 10px;
+  flex: 2;
+  height: 118vh;
+  background-color: white;
+}
+.first-right {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 3em;
+}
+
+.third-right {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+}
+.fourth-right {
+  border: 1px solid black;
+}
+/* image background */
+.second-right {width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.image-two {
+  width: 80%;
+  height: 250px;
+  border-radius: 10px;
+  rotate: -15deg;
+  position: relative;
+  z-index: 10;
+}
+
+.image-two img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.image-background-border {
+  width: 80%;
+  height: 250px;
+  border: 2px solid #000;
+  position: absolute;
+  top: 10px;
+  left: 55px;
+  border-radius: 10px;
+  rotate: -15deg;
+  margin-bottom: -10rem;
+}
+/* image-end */
+.third-right-one {
+  font-family: "Mars Model", sans-serif;
+  font-size: 1rem;
+  width: 80%;
+}
+.third-right-two {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  text-align: right;
+  width: 100%;
+  line-height: 15px;
+}
+.price-amount-both {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+.amount {
+  font-weight: 600;
+  font-family: "Mars Model", sans-serif;
+  font-size: 3rem;
+}
+.greater-than {
+  background-color: #000;
+  padding: 4vh 6vh;
+  font-size: 1.8rem;
+  font-weight: 900;
+  border-radius: 15px;
+  color: white;
+}
+.number-between {
+  font-weight: 500;
+}
+.less-than {
+  padding: 4vh 6vh;
+  background-color: #000;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: white;
+  border-radius: 15px;
+}
+.greater-lessthan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5.625rem;
+}

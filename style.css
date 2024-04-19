@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  width: 100%;
+  height: 10vh;
+  /* border-bottom: 1px solid white; */
+  display: flex;
+  padding: 4px;
+  gap: 2px;
+}
+
+.nav-left,
+.nav-middle,
+.nav-right {
+  background: #fff;
+  border-radius: 10px;
+  padding-inline: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  flex: 2;
+}
+
+.nav-middle {
+  flex: 1.5;
+}
+
+.logo {
+  font-weight: 800;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Mars Model", sans-serif;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  padding-inline: 4px;
+  gap: 2px;
+}
+
+.hero-left,
+.hero-right {
+  background: #fff;
+  border-radius: 10px;
+  padding-inline: 40px;
+  padding-top: 40px;
+}
+
+.hero-left {
+  flex: 1.955;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-heading-container {
+  position: relative;
+}
+
+.hero-heading {
+  font-family: "Mars Model";
+  font-size: 7rem;
+  line-height: 0.8;
+}
+
+sup {
+  position: absolute;
+  top: 52.5%;
+  left: 38%;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.divider-text {
+  font-size: 0.75rem;
+}
+
+.hr {
+  flex: 1;
+  border-color: #000;
+}
+
+.hero-left-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-img-container {
+  width: 100%;
+  height: 240px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero-data {
+  font-size: 0.6rem;
+  margin-bottom: 5px;
+}
+
+.cta {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Mars Model", sans-serif;
+  font-size: 2rem;
+  border: 0;
+}
+
+.arrow-right {
+  font-size: 5rem;
+}
+
+.painting-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.painting-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 65px;
+  position: relative;
+}
+
+.painting-img {
+  width: 80%;
+  height: 250px;
+  border-radius: 10px;
+  rotate: -15deg;
+  position: relative;
+  z-index: 10;
+}
+
+.painting-img-border {
+  width: 80%;
+  height: 250px;
+  border: 2px solid #000;
+  position: absolute;
+  top: 10px;
+  left: 55px;
+  border-radius: 10px;
+  rotate: -15deg;
+}
+
+.painting-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.painting-name {
+  font-family: "Mars Model", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  flex: 0.75;
+}
+
+.painting-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.price-text {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-family: "Mars Model", sans-serif;
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.btn {
+  padding: 20px 40px;
+  font-size: 2rem;
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  border: 0;
+}
